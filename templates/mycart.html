@@ -1,0 +1,36 @@
+{% extends 'base.html' %}
+
+{% block title %}
+My Cart
+{% endblock title %}
+
+{% block body %}
+  <h3 class="text-center"><span>My Cart</span> </h3>
+
+  {% if cart_items %}
+    <div class="container mt-3">
+      <div class="row">
+        {% for item in cart_items %}
+          <div class="col-sm-4">
+            <div class="card">
+              <div class="card-body">
+                <b><h5 class="card-title">{{ item.product.productname }}</h5></b>
+                <b>Price : {{ item.product.price }}</b>
+                <hr>
+                <p class="card-text">{{ item.product.productdesc }}</p>
+                <p>Owner : {{ item.product.username }}</p>
+                <p>Email : {{ item.product.email }}</p>
+                
+                <!-- Buy Now button for each item -->
+                <a href="{{ url_for('buyfromcart', pid=item.pid) }}" class="btn btn-primary">Buy Now</a>
+              </div>
+            </div>
+          </div>
+        {% endfor %}
+      </div>
+    </div>
+  {% else %}
+    <p>Your cart is empty.</p>
+  {% endif %}
+
+{% endblock body %}
