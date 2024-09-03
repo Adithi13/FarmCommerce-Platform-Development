@@ -2,6 +2,7 @@
 
 The Farm Management System is a comprehensive web application designed to assist farmers in enhancing their agricultural practices and productivity. The system provides access to best-practice farming processes, allows for online product sales, and facilitates the purchase of agricultural tools and seeds from verified sellers. Through this platform, farmers can manage their profiles, interact with the agricultural community, and contribute to the sustainable growth of the farming sector.
 
+
 ## Table of Contents
 - [Introduction](#introduction)
 - [Features](#features)
@@ -13,6 +14,7 @@ The Farm Management System is a comprehensive web application designed to assist
 
 ## Introduction
 The Farm Management System project was developed as a mini project for the DBMS Laboratory course at Sahyadri College of Engineering & Management. The system is aimed at providing farmers with essential tools and resources to improve their farming operations and connect with buyers and sellers.
+ 
 
 ## Features
 - Access to best-practice farming processes
@@ -27,7 +29,8 @@ The Farm Management System project was developed as a mini project for the DBMS 
 - **Database**: MySQL
 - **Tools**: Visual Studio Code, XAMPP
 
-
+## Entity Relationship Diagram
+You can view the Entity Relationship Diagram for the Farm Management System [here](https://github.com/Adithi13/FarmCommerce-Platform-Development/blob/ee7ed68ddc7dc6fc83962d2a1b4596dd130b1791/ER.png).
  ## Installation
 1. Clone the repository:
    ```
