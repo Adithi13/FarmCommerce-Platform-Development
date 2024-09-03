@@ -2,7 +2,7 @@
 
 The Farm Management System is a comprehensive web application designed to assist farmers in enhancing their agricultural practices and productivity. The system provides access to best-practice farming processes, allows for online product sales, and facilitates the purchase of agricultural tools and seeds from verified sellers. Through this platform, farmers can manage their profiles, interact with the agricultural community, and contribute to the sustainable growth of the farming sector.
 
-<img src="ER.png" alt="Farm Management System Overview" height="600" width="500"/>
+<img src="ER.png" alt="Farm Management System Overview" height="600" width="1500"/>
 
 
 ## Table of Contents
